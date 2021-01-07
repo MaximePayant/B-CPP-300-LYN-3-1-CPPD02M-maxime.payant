@@ -3,6 +3,8 @@
 ** castmania.c
 */
 
+#include <stdio.h>
+
 #include "castmania.h"
 
 void exec_operation(instruction_type_t instruction_type, void *data)
