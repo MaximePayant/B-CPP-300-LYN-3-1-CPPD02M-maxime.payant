@@ -22,9 +22,9 @@ void print_reverse(const  char *str)
 
     while (str[len] != '\0')
         len += 1;
-    while (len >= 0) {
-        write(1, &str[len], 1);
+    while (len > 0) {
         len -= 1;
+        write(1, &str[len], 1);
     }
     write(1, "\n", 1);
 }
