@@ -3,7 +3,7 @@
 ** func_ptr.c
 */
 
-#include "func_ptr_enum.h"
+#include "func_ptr.h"
 #include <unistd.h>
 
 void print_normal(const  char *str)
