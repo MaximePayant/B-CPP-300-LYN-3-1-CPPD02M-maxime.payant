@@ -16,7 +16,7 @@ float decimale_div(int a, int b)
 {
     if (b == 0)
         return (0);
-    return (a / b);
+    return ((float)a / (float)b);
 }
 
 void exec_div(division_t *operation)
