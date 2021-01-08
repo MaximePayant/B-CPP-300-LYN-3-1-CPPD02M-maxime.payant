@@ -11,6 +11,7 @@ int get_array_nb_elem(const int *ptr1, const int *ptr2)
 
     while (ptr1 + len != ptr2)
         len += 1;
+    len = (len < 0 ? len * -1 : len);
     return (len);
 }
 
