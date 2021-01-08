@@ -1,5 +1,6 @@
 /*
-** ShipWreck engine, 2020
+** EPITECH PROJECT, 2021
+** CPP_D02M
 ** mem_ptr.c
 */
 
