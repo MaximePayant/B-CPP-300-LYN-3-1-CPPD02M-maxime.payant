@@ -7,12 +7,10 @@
 
 int get_array_nb_elem(const int *ptr1, const int *ptr2)
 {
-    int len = 0;
+    int result = ptr2 - ptr1;
 
-    while (ptr1 + len != ptr2)
-        len += 1;
-    len = (len < 0 ? len * -1 : len);
-    return (len);
+    result = (result < 0 ? result * -1 : result);
+    return (result);
 }
 
 whatever_t *get_struct_ptr(const int *member_ptr)
